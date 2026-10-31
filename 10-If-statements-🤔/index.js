@@ -27,27 +27,30 @@ if(student){
 
 
 
-let  = document.getElementById("input")
+
+
+const input = document.getElementById("input");
+const submitBtn = document.getElementById("button");
+const outText = document.getElementById("outText");
 let hasLicense = true;
+let userAge;
 
-
-let userAge = 0
-
-const submitBtn = document.getElementById("button")
 
 submitBtn.onclick = function(){
+    
+    userAge = input.value;
+    userAge = Number(userAge);
 
-    if(userAge < 0 && userAge > 100){
-        document.getElementById("text").textContent = "You cant be 0 years old or 100+ years old."
-        console.log("You cant be 0 years old or 100+ years old.")
+    if(userAge < 0 || userAge > 100){
+        outText.textContent = `You cant be 0 years old or 100+ years old.`;
     }else if (userAge <= 16){
-        console.log("You are not old enough to drive")
+        outText.textContent = `You are not old enough to drive`;
     }else{
-        console.log("You are 16+ years old!")
+        outText.textContent = `You are 16+ years old!`;
         if(hasLicense){
-            console.log("You totally can Drive.")
+            outText.textContent = `You totally can Drive.`;
         }else{
-            console.log("You need to apply for Driving License.")
+            outText.textContent = `You need to apply for Driving License.`;
         }
     }
 }
