@@ -9,13 +9,11 @@ const payPalBtn = document.getElementById("payPal");
 const result = document.getElementById("outPut");
 
 
-
 submitBtn.onclick = function(){
 
     if(subBtn.checked){
         result.textContent = `You Subscribed, Bravo!`;
-    }
-    else if(visaBtn.checked){
+    }else if(visaBtn.checked){
         result.textContent = `You want to pay by Visa!`;
     }else if(masterCardBtn.checked){
         result.textContent = `You want to pay by MasterCard!`;
@@ -25,4 +23,5 @@ submitBtn.onclick = function(){
     else{
         result.textContent = `You didn't Click!`;
     }
+
 }
