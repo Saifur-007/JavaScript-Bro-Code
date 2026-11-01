@@ -26,4 +26,3 @@ submitBtn.onclick = function(){
         result.textContent = `You didn't Click!`;
     }
 }
-
