@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 100vh;   
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    background-color:aquamarine;
+    padding: 40px;
+    border-radius: 8px;
+}
+
+
+h1{
+    font-size: 48px;
+}
+
+#userInput{
+    width: 200px;
+    height: 40px;
+    font-size: 40px;
+}
+
+/* Both checkboxes */
+.inputBox input[type="checkbox"] {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    margin: 0 8px 0 0;
+    vertical-align: middle;
+    cursor: pointer;
+    accent-color: #2196F3;
+}
+
+/* Text beside both checkboxes */
+.inputBox label {
+    font-size: 24px;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+}
+
+button{
+    font-size: 28px;
+    padding: 12px 24px;
+    background-color:thistle
+}
+
+p{
+    font-size: 40px;
+}
