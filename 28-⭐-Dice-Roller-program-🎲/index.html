@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/dice-cube.png" type="image/x-icon">
+    <title>Dice Roller program 🎲</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <section>
+        <h1>Dice Roller</h1>
+        <div class="dice-numbers">
+            <h3># of dice :</h3>
+            <input type="number" id="numOfDice" name="tentacles" min="1" max="6" />
+            <button onclick="rollDice()">Roll dice</button>
+        </div>
+        <div id="diceResult"></div>
+        <div id="diceImgs"></div>
+    </section>
+</body>
+</html>
