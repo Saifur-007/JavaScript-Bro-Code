@@ -7,3 +7,10 @@ function goodbye(){
 }
 
 hello(goodbye);
+
+
+hello(leave);
+
+function leave(){
+    console.log("Leave!");
+}
