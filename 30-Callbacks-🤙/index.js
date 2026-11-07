@@ -1,12 +1,18 @@
+hello(goodbye);
+// goodbye();
+
+
 function hello(callback){
-    console.log("Hello!");
-    callback();
+    setTimeout(() => {
+        console.log("Hello!");
+        callback();
+    }, 3000);
 }
+
 function goodbye(){
     console.log("Good bye!");
 }
 
-hello(goodbye);
 
 
 hello(leave);
