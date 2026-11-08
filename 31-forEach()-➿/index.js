@@ -41,3 +41,11 @@ function triple(element){
     element = element * 3;
     console.log(element);
 }
+
+
+function capitalize (element){
+    element = element.charAt(0).toUpperCase() + element.slice(1).toLowerCase();
+    console.log(element);
+}
+
+names.forEach(capitalize);
