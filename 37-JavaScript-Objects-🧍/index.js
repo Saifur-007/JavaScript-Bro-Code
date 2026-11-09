@@ -26,5 +26,3 @@ console.log(Object.values(person1));
 
 person2.sayHi();
 console.log(`Hi, My name is ${person2.firstName} ${person2.lastName}.`)
-
-
