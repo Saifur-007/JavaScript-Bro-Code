@@ -23,3 +23,4 @@ const fish = new Fish();
 const hawk = new Hawk();
 
 console.log(rabbit.alive);
+console.log(fish.sleep());
