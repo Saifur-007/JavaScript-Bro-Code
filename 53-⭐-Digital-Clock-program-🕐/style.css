@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100px;
+}
+#clock-container{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-image: url(img/milky-way.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#clock{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 24px 0px;
+    color: azure;
+    backdrop-filter: blur(6px);
+    background-color: hsla(0, 0%, 100%, 0.1);
+}
