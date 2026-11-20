@@ -54,4 +54,4 @@ console.log(allFruits);
 
 allFruits.forEach(allFruit => {
     allFruit.style.backgroundColor = "orange"
-})
+});
